@@ -1,7 +1,7 @@
 # Simple-Keylogger
 - This Program listens for keyboard events (key presses and releases) using the pynput library, and logs the pressed keys into a file called keylogs.txt.
 
-
+# How it Work
 1) Key Press Event (on_press function):
 - The on_press(key) function is called whenever a key is pressed.
 - It tries to access the key.char attribute, which represents the character corresponding to the key. If the key is a regular alphanumeric character (like 'a', '1', etc.), it is written to the keylogs.txt file.
