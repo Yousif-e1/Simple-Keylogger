@@ -17,7 +17,7 @@
 - on_release: A callback function that is called on key release.
 - listener.join() ensures the listener will continuously listen for events until the program is stopped, either manually or when the Escape key is pressed.
 
-### Key Points:
+# Key Points:
 - Logging: Key presses are logged into keylogs.txt. Every time a key is pressed, the corresponding character (or special key name) is written to the file.
 - Escape to Stop: Pressing the Escape key will stop the listener and exit the program.
 - File Handling: The file is opened in append mode ("a"), so the new keypresses are added to the end of the file, preserving previous logs.
